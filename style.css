@@ -1,0 +1,104 @@
+body {
+  font-family: 'Caladea', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.navbar {
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+
+.main-image {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+.service-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 30px;
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+
+.btn-outline-light {
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+footer {
+  background-color: #1f1e1e;
+  padding: 1px 0;
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;          /* espacio entre cards */
+  flex-wrap: wrap;    /* para que bajen si la pantalla es pequeña */
+}
+
+.card {
+  background-color: #000000;
+  border: 1px solid #333333;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px 0;     /* quita margen lateral para que flex funcione mejor */
+}
+
+h5.card-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+p.card-text {
+  color: #ffffff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+  .main-image {
+    width: 100%;
+  }
+  .service-img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .btn-outline-light {
+    font-size: 0.9rem;
+    padding: 6px 16px;
+  }
+}
+
