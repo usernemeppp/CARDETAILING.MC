@@ -1,27 +1,150 @@
-<div class="service-card">
-  <h2 class="service-title">Pintura y Laminado</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pintura y Laminado</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px 10px;
+      color: #e2e8f0;
+    }
+    .service-card {
+    max-width: 420px;
+    background: #0f0f0f;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 25px rgba(78, 78, 78, 0.6);
+    }
 
-  <div class="price-box">
-    <span class="currency">MXN</span>
-    <small>Pago variado</small>
-  </div>
+    .card {
+      width: 340px;
+      background: #0f0f0f;;
+      padding: 20px;
+      border-radius: 18px;
+      box-shadow: 0 0 25px rgba(77, 77, 77, 0.6);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
 
- 
-  <div class="service-section">
-    <h3> Pintura Automotriz</h3>
-    <p class="service-desc">
-      Devuélvele la vida a tu coche corrigiendo rayones, desgaste y daños en la pintura.
-    </p>
+    .card h2 {
+      text-align: center;
+      margin: 0 0 10px;
+      font-size: 1.6rem;
+      color: #ffffff;
+    }
+
+    .card p.description {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #adacac;
+      margin-bottom: 15px;
+    }
+
+    .price-box {
+      text-align: center;
+      background: #3f3f3f;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 16px;
+    }
+
+    .price-box span {
+      display: block;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .features ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .features li {
+      margin-bottom: 6px;
+      color: #bebebe;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 18px;
+      background: #333333;
+      color: #ffffff;
+      text-align: center;
+      padding: 12px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(184, 184, 184, 0.4);
+    }
+
+    .btn:hover {
+      background: #6e6e6e;
+    }
+
+    .btn-main {
+      display: block;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .btn-main:hover {
+      background: #555;
+    }
+
+    .service-section {
+  margin-bottom: 20px;
+}
+
+.service-section h3 {
+  margin-bottom: 6px;
+}
+
+.service-desc {
+  color: #d6d6d6;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.service-section ul {
+  padding-left: 18px;
+  margin-bottom: 8px;
+}
+
+.service-section li {
+  margin-bottom: 6px;
+}
+  </style>
+</head>
+<body>
+
+  <div class="service-card">
+    <h2>Laminado y pintura </h2>
+    <p class="description"> </p>
+
+    <div class="price-box">
+      <span>MXN</span>
+      <small style="color:#979797">Pago variado</small>
+    </div>
 
     <ul>
       <li>Corrección de rayones e imperfecciones</li>
       <li>Igualación de color</li>
       <li>Acabado brillante y duradero</li>
     </ul>
-
-    
-  </div>
-
  
   <div class="service-section">
     <h3> Laminado </h3>
@@ -35,113 +158,9 @@
       <li>Removible sin dañar la pintura</li>
     </ul>
 
-   
+    <a href="https://wa.link/ud1rkd" class="btn">Agendar</a>
+    <a href="index1.html" class="btn-main" style="margin-top:10px;">⬅ Volver a servicios</a>
   </div>
 
-  <a href="https://wa.link/j214dy" class="btn-primary">Agendar</button>
-  <a href="index1.html" class="btn-secondary">← Volver a servicios</a>
-</div>
-
-  </div>
-
-    <style> 
-
-    Body {
-    background-color: #121212;
-}
-
-    .service-card {
-  max-width: 420px;
-  background: #0f0f0f;
-  color: #ffffff;
-  border-radius: 16px;
-  padding: 24px;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 0 25px rgba(77, 77, 77, 0.6);
-}
-
-.service-title {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.price-box {
-  background: #2a2a2a;
-  border-radius: 12px;
-  padding: 12px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.currency {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.price-box small {
-  display: block;
-  color: #aaa;
-}
-
-.service-section {
-  margin-bottom: 20px;
-}
-
-.service-section h3 {
-  margin-bottom: 6px;
-}
-
-.service-desc {
-  color: #ccc;
-  font-size: 0.9rem;
-  margin-bottom: 8px;
-}
-
-.service-section ul {
-  padding-left: 18px;
-  margin-bottom: 8px;
-}
-
-.service-section li {
-  margin-bottom: 6px;
-}
-
-.tag {
-  display: inline-block;
-  font-size: 0.75rem;
-  color: #00e0ff;
-}
-
-.btn-primary {
-  width: 100%;
-  background: #2e2e2e;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 12px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.btn-primary:hover {
-  background: #444;
-}
-
-.btn-secondary {
-      display: block;
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 12px;
-      border-radius: 12px;
-      text-decoration: none;
-      margin-top: 20px;
-    }
-
-    .btn-secondary:hover {
-      background: #444;
-    }
-
-
-    </style> 
+</body>
+</html>
