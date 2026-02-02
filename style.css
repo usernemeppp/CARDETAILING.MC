@@ -103,7 +103,45 @@ h2 {
   padding: 8px 20px;
 }
 
+.carousel {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 20px;
+    }
 
+    .image-container {
+      display: grid;
+      gap: 15px;
+      grid-auto-flow: column;
+      grid-auto-columns: 250px;
+      justify-items: stretch;
+      animation: animation 20s linear infinite;
+    }
+
+  
+    .image-container:hover {
+      animation-play-state: paused;
+    }
+
+    .image-container img {
+      border-radius: 25px;
+      width: 250px;
+      height: 160px;
+      object-fit: cover;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      z-index: 10;
+    }
+
+    @keyframes animation {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); }
+    }
 
 /* FOOTER */
 .footer {
